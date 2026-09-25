@@ -17,7 +17,7 @@ Hito 2: Configuración de red y primer acceso SSH remoto
 - Red: Adaptador Puente configurado en VirtualBox para integración en la red local (192.168.1.128).
 - Gestión: Conexión segura por SSH desde la terminal de Windows (PowerShell) hacia el servidor virtual (servidor-lab-01).
 - Estado: Servicio OpenSSH verificado y operativo para administración desatendida.
-- 
+  
 <img width="1092" height="629" alt="primerssh" src="https://github.com/user-attachments/assets/0a09c302-7b6c-4570-93f4-c266731df84a" />
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -37,10 +37,8 @@ Hito 3: Seguridad y Endurecimiento con UFW
 
 Hito 4: Despliegue de un Servidor Web (Nginx) y Gestión de Servicios
 
-1. Objetivo
-Desplegar un servidor web Nginx en Ubuntu Server para aprender a gestionar paquetes del sistema (`apt`), controlar servicios (`systemctl`), configurar reglas en el cortafuegos (UFW) y verificar el acceso visual desde el equipo anfitrión mediante una red en puente.
-
-2. Proceso y Comandos Ejecutados
+- Objetivo: Desplegar un servidor web Nginx en Ubuntu Server para aprender a gestionar paquetes del sistema (`apt`), controlar servicios (`systemctl`), configurar reglas en el cortafuegos (UFW) y verificar el acceso visual desde el equipo anfitrión mediante una red en puente.
+- Proceso y Comandos Ejecutados
 Se actualizó la lista de paquetes del sistema, se instaló Nginx mediante el gestor de paquetes oficial, se comprobó el estado de actividad del servicio (saliendo del paginador con la tecla `q`), se abrió el puerto 80 en el cortafuegos y se confirmó la visualización de la página de bienvenida en el navegador.
 
 bash
